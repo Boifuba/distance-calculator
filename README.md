@@ -16,9 +16,7 @@ A beautiful and intuitive module for calculating travel distances and estimated 
 1. In FoundryVTT, go to the **Add-on Modules** tab
 2. Click **Install Module**
 3. Paste the following URL in the **Manifest URL** field:
-   ```
-   https://github.com/boifuba/distance-calculator/releases/latest/download/module.json
-   ```
+   ```https://raw.githubusercontent.com/Boifuba/distance-calculator/refs/tags/download/module.json   ```
 4. Click **Install**
 5. Enable the module in your world settings
 
