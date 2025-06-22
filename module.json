@@ -23,8 +23,8 @@
   ],
     "packs": [
     {
-      "name": "distance-calcular",
-      "label": "Distance Calcular",
+      "name": "distance-calculator",
+      "label": "Distance Calculator",
       "path": "packs/distance-calculator",
       "type": "Macro",
       "ownership": {
