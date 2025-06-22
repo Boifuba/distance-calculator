@@ -8,70 +8,71 @@ export class DistanceDialog extends Dialog {
       <div class="distance-calculator-form">
         <div class="form-header">
           <i class="fas fa-route"></i>
-          <h2>${game.i18n.localize('DISTANCE_CALC.DialogTitle')}</h2>
-          <p class="form-description">${game.i18n.localize('DISTANCE_CALC.DialogDescription')}</p>
+          <p>${game.i18n.localize('DISTANCE_CALC.DialogTitle')}</p>
         </div>
         
         <form class="distance-form">
           <div class="form-section">
             <h3>${game.i18n.localize('DISTANCE_CALC.MapSettings')}</h3>
             
-            <div class="form-group">
-              <label for="milesPerPixel">
-                <i class="fas fa-map"></i>
-                ${game.i18n.localize('DISTANCE_CALC.MilesPerPixel')}
-              </label>
-              <input 
-                id="milesPerPixel" 
-                name="milesPerPixel" 
-                type="number" 
-                step="0.0001" 
-                min="0" 
-                value="${currentSettings.milesPerPixel}"
-                placeholder="0.01" 
-              />
-              <small class="form-hint">${game.i18n.localize('DISTANCE_CALC.MilesPerPixelHint')}</small>
-            </div>
+          <div class="form-group">
+  <label for="milesPerPixel">
+    <i class="fas fa-map"></i>
+    ${game.i18n.localize('DISTANCE_CALC.MilesPerPixel')}
+  </label>
+  <input 
+    id="milesPerPixel" 
+    name="milesPerPixel" 
+    type="number" 
+    step="0.0001" 
+    min="0" 
+    value="${currentSettings.milesPerPixel}"
+    placeholder="0.01"
+    title="${game.i18n.localize('DISTANCE_CALC.MilesPerPixelHint')}"
+  />
+</div>
+
           </div>
 
-          <div class="form-section">
-            <h3>${game.i18n.localize('DISTANCE_CALC.TravelSettings')}</h3>
-            
-            <div class="form-group">
-              <label for="move">
-                <i class="fas fa-walking"></i>
-                ${game.i18n.localize('DISTANCE_CALC.MoveSpeed')}
-              </label>
-              <input 
-                id="move" 
-                name="move" 
-                type="number" 
-                step="0.1" 
-                min="0" 
-                value="${currentSettings.move}"
-                placeholder="12" 
-              />
-              <small class="form-hint">${game.i18n.localize('DISTANCE_CALC.MoveSpeedHint')}</small>
-            </div>
-            
-            <div class="form-group">
-              <label for="hoursPerDay">
-                <i class="fas fa-clock"></i>
-                ${game.i18n.localize('DISTANCE_CALC.HoursPerDay')}
-              </label>
-              <input 
-                id="hoursPerDay" 
-                name="hoursPerDay" 
-                type="number" 
-                step="1" 
-                min="1" 
-                max="24"
-                value="${currentSettings.hoursPerDay}"
-                placeholder="8" 
-              />
-              <small class="form-hint">${game.i18n.localize('DISTANCE_CALC.HoursPerDayHint')}</small>
-            </div>
-          </div>
+         <div class="form-section">
+  <h3>${game.i18n.localize('DISTANCE_CALC.TravelSettings')}</h3>
+
+  <div class="form-group">
+    <label for="move">
+      <i class="fas fa-walking"></i>
+      ${game.i18n.localize('DISTANCE_CALC.MoveSpeed')}
+    </label>
+    <input 
+      id="move" 
+      name="move" 
+      type="number" 
+      step="0.1" 
+      min="0" 
+      value="${currentSettings.move}"
+      placeholder="12" 
+      title="${game.i18n.localize('DISTANCE_CALC.MoveSpeedHint')}"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="hoursPerDay">
+      <i class="fas fa-clock"></i>
+      ${game.i18n.localize('DISTANCE_CALC.HoursPerDay')}
+    </label>
+    <input 
+      id="hoursPerDay" 
+      name="hoursPerDay" 
+      type="number" 
+      step="1" 
+      min="1" 
+      max="24"
+      value="${currentSettings.hoursPerDay}"
+      placeholder="8" 
+      title="${game.i18n.localize('DISTANCE_CALC.HoursPerDayHint')}"
+    />
+  </div>
+</div>
+
         </form>
       </div>
     `;

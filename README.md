@@ -17,21 +17,21 @@ A beautiful and intuitive module for calculating travel distances and estimated 
 2. Click **Install Module**
 3. Paste the following URL in the **Manifest URL** field:
    ```
-   https://github.com/yourusername/distance-calculator/releases/latest/download/module.json
+   https://github.com/boifuba/distance-calculator/releases/latest/download/module.json
    ```
 4. Click **Install**
 5. Enable the module in your world settings
 
 ## Usage
 
-1. **Access the Tool**: Find the route icon (🛣️) in your Drawing Tools palette
-2. **Draw Your Path**: Use any drawing tool to create a path on your canvas
-3. **Open Calculator**: Click the Distance Calculator button
-4. **Configure Settings**:
+
+1. **Draw Your Path**: Use any drawing tool to create a path on your canvas
+2. **Open Calculator**: Click the Distance Calculator button
+3. **Configure Settings**:
    - **Miles per Pixel**: Set your map's scale (e.g., 0.01 for detailed maps)
-   - **Movement Speed**: Enter character movement speed (typically 12 for D&D 5e)
+   - **Movement Speed**: Enter character movement speed 
    - **Hours per Day**: Set daily travel hours (typically 8 hours)
-5. **Calculate**: Click "Calculate Distance" to get results in chat
+4. **Calculate**: Click "Calculate Distance" to get results in chat
 
 ## Configuration
 
@@ -40,9 +40,7 @@ Determine how many miles each pixel represents on your map. This varies based on
 
 ### Movement Speed
 Based on your game system:
-- **D&D 5e**: Typically 12 (30 feet per round)
-- **Pathfinder**: Varies by character
-- **Custom**: Set according to your system
+
 
 ### Travel Hours
 Realistic travel considerations:
@@ -60,8 +58,8 @@ Realistic travel considerations:
 ## Support
 
 For issues, feature requests, or contributions:
-- **GitHub**: [https://github.com/yourusername/distance-calculator](https://github.com/yourusername/distance-calculator)
-- **Issues**: [https://github.com/yourusername/distance-calculator/issues](https://github.com/yourusername/distance-calculator/issues)
+- **GitHub**: [https://github.com/boifuba/distance-calculator](https://github.com/boifuba/distance-calculator)
+- **Issues**: [https://github.com/boifuba/distance-calculator/issues](https://github.com/boifuba/distance-calculator/issues)
 
 ## License
 
